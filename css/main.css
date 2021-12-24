@@ -433,7 +433,6 @@ textarea {
   position: absolute;
   top: 20px;
   right: 15px;
-
 }
 
 @media all and (min-width: 720px) {
@@ -483,10 +482,6 @@ textarea {
     padding: 15px;
     border: 1px solid transparent;
     transition: 350ms;
-  }
-
-  .nav-link:hover {
-    border: 1px solid #d2d5db;
   }
 
   .nav-link:hover {
