@@ -27,7 +27,7 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav {
   display: none;
 }
 
@@ -37,6 +37,7 @@ header {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  display: block;
 }
 
 .menu-bars {
@@ -416,6 +417,25 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #fff;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: 350ms;
+}
+
+#toggleButton {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
@@ -463,6 +483,10 @@ textarea {
     padding: 15px;
     border: 1px solid transparent;
     transition: 350ms;
+  }
+
+  .nav-link:hover {
+    border: 1px solid #d2d5db;
   }
 
   .nav-link:hover {
