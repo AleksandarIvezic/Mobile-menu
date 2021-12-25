@@ -18,7 +18,7 @@ hr {
   width: 80vw;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,8 +27,15 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav {
   display: none;
+  text-align: start;
+  width: 100%;
+}
+
+#desktop-nav ul {
+  width: 100%;
+  margin-top: 30px;
 }
 
 #logo {
@@ -37,6 +44,7 @@ header {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  display: block;
 }
 
 .menu-bars {
@@ -234,9 +242,9 @@ li {
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
-  text-align: center;
   color: #fff;
   padding: 5px;
+  border-bottom: 1px solid grey;
 }
 
 .card-stacks li {
@@ -414,6 +422,25 @@ textarea {
   filter:
     invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #fff;
+  padding: 15px;
+  border: 1px solid transparent;
+  transition: 350ms;
+}
+
+#toggleButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.2rem;
 }
 
 @media all and (min-width: 720px) {
