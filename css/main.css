@@ -29,6 +29,13 @@ hr {
 
 #desktop-nav {
   display: none;
+  text-align: start;
+  width: 100%;
+}
+
+#desktop-nav ul {
+  width: 100%;
+  margin-top: 30px;
 }
 
 #logo {
@@ -235,9 +242,9 @@ li {
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
-  text-align: center;
   color: #fff;
   padding: 5px;
+  border-bottom: 1px solid grey;
 }
 
 .card-stacks li {
@@ -431,8 +438,9 @@ textarea {
 
 #toggleButton {
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 15px;
+  font-size: 1.2rem;
 }
 
 @media all and (min-width: 720px) {
