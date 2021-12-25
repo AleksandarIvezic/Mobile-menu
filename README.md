@@ -8,8 +8,8 @@
    - When the user clicks (or taps) the close (X) button, the mobile menu disappears.
    - When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
-
-![image](https://user-images.githubusercontent.com/63932912/147373728-f56ebcc1-fa86-4666-b954-4ea556745f3a.png)
+![image](https://user-images.githubusercontent.com/63932912/147383145-f6b80c08-3bb0-429a-aec9-f0268fbfed8c.png)
+![image](https://user-images.githubusercontent.com/63932912/147383151-16e73fc2-bef5-4d36-943c-3bc683be0c5f.png)
 
 ## Built With
 
